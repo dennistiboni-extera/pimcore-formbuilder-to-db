@@ -1,0 +1,33 @@
+{
+    "name": "extera/pimcore-formbuilder-to-db",
+    "type": "pimcore-bundle",
+    "license": "GPL-3.0-or-later",
+    "description": "Pimcore 5.x FormBuilder Addon - save contact to object!",
+    "keywords": ["pimcore", "formbuilder"],
+    "homepage": "https://github.com/dennistiboni-extera/pimcore-formbuilder-to-db",
+    "authors": [
+        {
+            "name": "Dennis Tiboni @ Extera",
+            "email": "dennis.tiboni@extera.com",
+            "homepage": "http://www.extera.com/",
+            "role": "IT"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "FormBuilderToDbBundle\\": "src/"
+        }
+    },
+
+    "extra": {
+        "pimcore": {
+            "bundles": [
+                "FormBuilderToDbBundle\\FormBuilderToDbBundle"
+            ]
+        }
+    },
+    "require": {
+        "pimcore/core-version": "^5.1.0"
+    }
+}
