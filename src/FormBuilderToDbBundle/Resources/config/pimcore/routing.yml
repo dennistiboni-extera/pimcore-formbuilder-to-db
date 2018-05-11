@@ -1,0 +1,5 @@
+extera_form_builder_to_db:
+    resource: "@ExteraFormBuilderToDbBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
