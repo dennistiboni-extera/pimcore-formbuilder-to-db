@@ -1,5 +1,5 @@
 {
-    "name": "extera/pimcore-formbuilder-to-db",
+    "name": "dennistiboni-extera/pimcore-formbuilder-to-db",
     "type": "pimcore-bundle",
     "license": "GPL-3.0-or-later",
     "description": "Pimcore 5.x FormBuilder Addon - save contact to object!",
