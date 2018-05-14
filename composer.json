@@ -5,7 +5,7 @@
     "description": "Pimcore 5.x FormBuilder Addon - save contact to object!",
     "keywords": ["pimcore", "formbuilder"],
     "homepage": "https://github.com/dennistiboni-extera/pimcore-formbuilder-to-db",
-    "minimum-stability": "dev",
+    "minimum-stability": "master",
     "authors": [
         {
             "name": "Dennis Tiboni @ Extera",
